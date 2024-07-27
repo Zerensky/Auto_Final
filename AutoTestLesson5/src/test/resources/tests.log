@@ -1,0 +1,462 @@
+1055 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+1061 [main] DEBUG org.mortbay.log - Container Server@1d2bd371 + org.mortbay.thread.QueuedThreadPool@64ba3208 as threadpool
+1069 [main] DEBUG org.mortbay.log - Container Server@1d2bd371 + DelayableSocketConnector@0.0.0.0:8080 as connector
+1088 [main] DEBUG org.mortbay.log - Container Server@1d2bd371 + org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} as handler
+1088 [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} + ServletHandler@55562aa9 as handler
+1099 [main] DEBUG org.mortbay.log - Container ServletHandler@55562aa9 + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661 as servlet
+1101 [main] DEBUG org.mortbay.log - Container ServletHandler@55562aa9 + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661,[/]) as servletMapping
+1108 [main] DEBUG org.mortbay.log - filterNameMap=null
+1108 [main] DEBUG org.mortbay.log - pathFilters=null
+1108 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1108 [main] DEBUG org.mortbay.log - servletPathMap={/=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661}
+1109 [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661}
+1111 [main] DEBUG org.mortbay.log - Container ServletHandler@55562aa9 - com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661 as servlet
+1111 [main] DEBUG org.mortbay.log - Container ServletHandler@55562aa9 - (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661,[/]) as servletMapping
+1111 [main] DEBUG org.mortbay.log - Container Server@1d2bd371 - org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} as handler
+1112 [main] DEBUG org.mortbay.log - Container Server@1d2bd371 + HandlerCollection@6955cb39 as handler
+1112 [main] DEBUG org.mortbay.log - Container ServletHandler@55562aa9 + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661 as servlet
+1112 [main] DEBUG org.mortbay.log - Container ServletHandler@55562aa9 + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661,[/]) as servletMapping
+1112 [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} + ServletHandler@55562aa9 as handler
+1112 [main] DEBUG org.mortbay.log - Container HandlerCollection@6955cb39 + org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} as handler
+1112 [main] DEBUG org.mortbay.log - Container HandlerCollection@6955cb39 + org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} as handler
+1113 [main] DEBUG org.mortbay.log - Container HandlerCollection@6955cb39 + org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} as handler
+1113 [main] DEBUG org.mortbay.log - Container HandlerCollection@6955cb39 + org.mortbay.jetty.servlet.Context@235a0c16{/,null} as handler
+1113 [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@235a0c16{/,null} + ServletHandler@2b5f4d54 as handler
+1117 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + org.mortbay.jetty.servlet.DefaultServlet-962287291 as servlet
+1117 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + (S=org.mortbay.jetty.servlet.DefaultServlet-962287291,[/__files/*]) as servletMapping
+1118 [main] DEBUG org.mortbay.log - filterNameMap=null
+1118 [main] DEBUG org.mortbay.log - pathFilters=null
+1118 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1118 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-962287291}
+1118 [main] DEBUG org.mortbay.log - servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-962287291=org.mortbay.jetty.servlet.DefaultServlet-962287291}
+1119 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869 as servlet
+1119 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869,[/]) as servletMapping
+1119 [main] DEBUG org.mortbay.log - filterNameMap=null
+1119 [main] DEBUG org.mortbay.log - pathFilters=null
+1119 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1120 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-962287291, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869}
+1120 [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869, org.mortbay.jetty.servlet.DefaultServlet-962287291=org.mortbay.jetty.servlet.DefaultServlet-962287291}
+1155 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930 as filter
+1159 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + (F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930,[/__files/*],[],2) as filterMapping
+1163 [main] DEBUG org.mortbay.log - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930}
+1163 [main] DEBUG org.mortbay.log - pathFilters=[(F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930,[/__files/*],[],2)]
+1164 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1164 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-962287291, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869}
+1164 [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869, org.mortbay.jetty.servlet.DefaultServlet-962287291=org.mortbay.jetty.servlet.DefaultServlet-962287291}
+1165 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-848097505 as filter
+1166 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + (F=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-848097505,[/__files/*],[],15) as filterMapping
+1166 [main] DEBUG org.mortbay.log - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930, com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-848097505=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-848097505}
+1166 [main] DEBUG org.mortbay.log - pathFilters=[(F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930,[/__files/*],[],2), (F=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-848097505,[/__files/*],[],15)]
+1166 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1166 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-962287291, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869}
+1166 [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869, org.mortbay.jetty.servlet.DefaultServlet-962287291=org.mortbay.jetty.servlet.DefaultServlet-962287291}
+1167 [main] DEBUG org.mortbay.log - Container HandlerCollection@6955cb39 + org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} as handler
+1167 [main] DEBUG org.mortbay.log - Container HandlerCollection@6955cb39 + org.mortbay.jetty.servlet.Context@235a0c16{/,null} as handler
+1226 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+1252 [main] INFO  L.a.FifteenDaysOfWeatherAlarmsTest - Тест код ответ 401 запущен
+1252 [main] DEBUG L.a.FifteenDaysOfWeatherAlarmsTest - Формируем мок GET /alarms/v1/15day//290421
+2137 [main] DEBUG L.a.FifteenDaysOfWeatherAlarmsTest - http клиент создан
+2236 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+2361 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+2375 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+2378 [main] INFO  L.current.CurrentConditionsTest - Тест код ответ 200 запущен
+2380 [main] DEBUG L.current.CurrentConditionsTest - Формируем мок GET /currentconditions/v1/15
+2417 [main] DEBUG L.current.CurrentConditionsTest - http-клиент создан
+2476 [main] INFO  L.current.CurrentConditionsTest - Тест код ответ 401 запущен
+2477 [main] DEBUG L.current.CurrentConditionsTest - Формируем мок GET /currentconditions/v1/15
+2499 [main] DEBUG L.current.CurrentConditionsTest - http клиент создан
+2529 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+2643 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+2656 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+2660 [main] INFO  L.current.HistoricalSixHourTest - Тест код ответ 200 запущен
+2662 [main] DEBUG L.current.HistoricalSixHourTest - Формируем мок GET /currentconditions/v1/5/historical
+2687 [main] DEBUG L.current.HistoricalSixHourTest - http-клиент создан
+2716 [main] INFO  L.current.HistoricalSixHourTest - Тест код ответ 401 запущен
+2716 [main] DEBUG L.current.HistoricalSixHourTest - Формируем мок GET /currentconditions/v1/5/historical
+2732 [main] DEBUG L.current.HistoricalSixHourTest - http клиент создан
+2747 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+2860 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+2868 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+2870 [main] INFO  L.c.HistoricalTwentyFourHoursTest - Тест код ответ 200 запущен
+2871 [main] DEBUG L.c.HistoricalTwentyFourHoursTest - Формируем мок GET /currentconditions/v1/5/historical/24
+2890 [main] DEBUG L.c.HistoricalTwentyFourHoursTest - http-клиент создан
+2907 [main] INFO  L.c.HistoricalTwentyFourHoursTest - Тест код ответ 401 запущен
+2907 [main] DEBUG L.c.HistoricalTwentyFourHoursTest - Формируем мок GET /currentconditions/v1/5/historical/24
+2920 [main] DEBUG L.c.HistoricalTwentyFourHoursTest - http клиент создан
+2934 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+3048 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+3057 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+3059 [main] INFO  L.indices.FiveDaysForAGroupTest - Тест код ответ 200 запущен
+3062 [main] DEBUG L.indices.FiveDaysForAGroupTest - Формируем мок GET /indices/v1/daily/5day/52/groups/8
+3085 [main] DEBUG L.indices.FiveDaysForAGroupTest - http-клиент создан
+3101 [main] INFO  L.indices.FiveDaysForAGroupTest - Тест код ответ 401 запущен
+3101 [main] DEBUG L.indices.FiveDaysForAGroupTest - Формируем мок GET /indices/v1/daily/5day/52/groups/8
+3113 [main] DEBUG L.indices.FiveDaysForAGroupTest - http клиент создан
+3126 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+3234 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+3241 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+3243 [main] INFO  L.indices.FiveDaysForAllIndicesTest - Тест код ответ 200 запущен
+3244 [main] DEBUG L.indices.FiveDaysForAllIndicesTest - Формируем мок GET /indices/v1/daily/5day/52/groups/8
+3257 [main] DEBUG L.indices.FiveDaysForAllIndicesTest - http-клиент создан
+3271 [main] INFO  L.indices.FiveDaysForAllIndicesTest - Тест код ответ 401 запущен
+3271 [main] DEBUG L.indices.FiveDaysForAllIndicesTest - Формируем мок GET /indices/v1/daily/5day/52/groups/8
+3282 [main] DEBUG L.indices.FiveDaysForAllIndicesTest - http клиент создан
+3292 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+3403 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+3410 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+3411 [main] INFO  L.i.FiveDaysForSpecificIndexTest - Тест код ответ 200 запущен
+3411 [main] DEBUG L.i.FiveDaysForSpecificIndexTest - Формируем мок GET /indices/v1/daily/5day/52/8
+3427 [main] DEBUG L.i.FiveDaysForSpecificIndexTest - http-клиент создан
+3442 [main] INFO  L.i.FiveDaysForSpecificIndexTest - Тест код ответ 401 запущен
+3442 [main] DEBUG L.i.FiveDaysForSpecificIndexTest - Формируем мок GET /indices/v1/daily/5day/52/8
+3452 [main] DEBUG L.i.FiveDaysForSpecificIndexTest - http клиент создан
+3464 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+3572 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+3577 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+3579 [main] INFO  L.indices.ListDailyGroupIndicesTest - Тест код ответ 200 запущен
+3583 [main] DEBUG L.indices.ListDailyGroupIndicesTest - Формируем мок GET /indices/v1/daily
+3598 [main] DEBUG L.indices.ListDailyGroupIndicesTest - http-клиент создан
+3613 [main] INFO  L.indices.ListDailyGroupIndicesTest - Тест код ответ 401 запущен
+3613 [main] DEBUG L.indices.ListDailyGroupIndicesTest - Формируем мок GET /indices/v1/daily
+3631 [main] DEBUG L.indices.ListDailyGroupIndicesTest - http клиент создан
+3642 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+3759 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+3764 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+3765 [main] INFO  L.indices.ListDailyIndicesTest - Тест код ответ 200 запущен
+3765 [main] DEBUG L.indices.ListDailyIndicesTest - Формируем мок GET /indices/v1/daily
+3778 [main] DEBUG L.indices.ListDailyIndicesTest - http-клиент создан
+3790 [main] INFO  L.indices.ListDailyIndicesTest - Тест код ответ 401 запущен
+3790 [main] DEBUG L.indices.ListDailyIndicesTest - Формируем мок GET /indices/v1/daily
+3800 [main] DEBUG L.indices.ListDailyIndicesTest - http клиент создан
+3809 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+3915 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+3920 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+3922 [main] INFO  L.indices.ListInASpecificGroupTest - Тест код ответ 200 запущен
+3922 [main] DEBUG L.indices.ListInASpecificGroupTest - Формируем мок GET /indices/v1/daily/groups/8
+3937 [main] DEBUG L.indices.ListInASpecificGroupTest - http-клиент создан
+3952 [main] INFO  L.indices.ListInASpecificGroupTest - Тест код ответ 401 запущен
+3952 [main] DEBUG L.indices.ListInASpecificGroupTest - Формируем мок GET /indices/v1/daily/groups/8
+3962 [main] DEBUG L.indices.ListInASpecificGroupTest - http клиент создан
+3970 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+4087 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+4092 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+4094 [main] INFO  L.i.OneDayValuesAllIndicesTest - Тест код ответ 200 запущен
+4096 [main] DEBUG L.i.OneDayValuesAllIndicesTest - Формируем мок GET /indices/v1/daily/1day/5
+4110 [main] DEBUG L.i.OneDayValuesAllIndicesTest - http-клиент создан
+4120 [main] INFO  L.i.OneDayValuesAllIndicesTest - Тест код ответ 401 запущен
+4122 [main] DEBUG L.i.OneDayValuesAllIndicesTest - Формируем мок GET /indices/v1/daily/1day/5
+4132 [main] DEBUG L.i.OneDayValuesAllIndicesTest - http клиент создан
+4140 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+4245 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+4250 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+4253 [main] INFO  L.indices.OneDayValuesGroupTest - Тест код ответ 200 запущен
+4253 [main] DEBUG L.indices.OneDayValuesGroupTest - Формируем мок GET /indices/v1/daily/1day/5/groups/8
+4264 [main] DEBUG L.indices.OneDayValuesGroupTest - http-клиент создан
+4275 [main] INFO  L.indices.OneDayValuesGroupTest - Тест код ответ 401 запущен
+4275 [main] DEBUG L.indices.OneDayValuesGroupTest - Формируем мок GET /indices/v1/daily/1day/5/groups/8
+4290 [main] DEBUG L.indices.OneDayValuesGroupTest - http клиент создан
+4297 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+4401 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+4405 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+4407 [main] INFO  L.i.OneDayValuesSpecificIndexTest - Тест код ответ 200 запущен
+4408 [main] DEBUG L.i.OneDayValuesSpecificIndexTest - Формируем мок GET /indices/v1/daily/1day/5/8
+4419 [main] DEBUG L.i.OneDayValuesSpecificIndexTest - http-клиент создан
+4429 [main] INFO  L.i.OneDayValuesSpecificIndexTest - Тест код ответ 401 запущен
+4429 [main] DEBUG L.i.OneDayValuesSpecificIndexTest - Формируем мок GET /indices/v1/daily/1day/5/8
+4437 [main] DEBUG L.i.OneDayValuesSpecificIndexTest - http клиент создан
+4447 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+4557 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+4561 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+4562 [main] INFO  L.location.AutoCompleteSearchTest - Тест код ответ 200 запущен
+4563 [main] DEBUG L.location.AutoCompleteSearchTest - Формируем мок GET /locations/v1/cities/autocomplete
+4577 [main] DEBUG L.location.AutoCompleteSearchTest - http-клиент создан
+4591 [main] INFO  L.location.AutoCompleteSearchTest - Тест код ответ 401 запущен
+4591 [main] DEBUG L.location.AutoCompleteSearchTest - Формируем мок GET /locations/v1/cities/autocomplete
+4600 [main] DEBUG L.location.AutoCompleteSearchTest - http клиент создан
+4610 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+4727 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+4734 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+4735 [main] INFO  Lesson6.location.ListAdminAreaTest - Тест код ответ 200 запущен
+4740 [main] DEBUG Lesson6.location.ListAdminAreaTest - Формируем мок GET /locations/v1/adminareas/MEA
+4753 [main] DEBUG Lesson6.location.ListAdminAreaTest - http-клиент создан
+4765 [main] INFO  Lesson6.location.ListAdminAreaTest - Тест код ответ 401 запущен
+4765 [main] DEBUG Lesson6.location.ListAdminAreaTest - Формируем мок GET /locations/v1/adminareas/MEA
+4776 [main] DEBUG Lesson6.location.ListAdminAreaTest - http клиент создан
+4786 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+4898 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+4904 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+4905 [main] INFO  Lesson6.location.ListCountryTest - Тест код ответ 200 запущен
+4907 [main] DEBUG Lesson6.location.ListCountryTest - Формируем мок GET /locations/v1/countries/ARC
+4918 [main] DEBUG Lesson6.location.ListCountryTest - http-клиент создан
+4930 [main] INFO  Lesson6.location.ListCountryTest - Тест код ответ 401 запущен
+4930 [main] DEBUG Lesson6.location.ListCountryTest - Формируем мок GET /locations/v1/countries/ARC
+4939 [main] DEBUG Lesson6.location.ListCountryTest - http клиент создан
+4948 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+5055 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+5060 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+5061 [main] INFO  Lesson6.location.ListRegionsTest - Тест код ответ 200 запущен
+5062 [main] DEBUG Lesson6.location.ListRegionsTest - Формируем мок GET /locations/v1/regions
+5072 [main] DEBUG Lesson6.location.ListRegionsTest - http-клиент создан
+5084 [main] INFO  Lesson6.location.ListRegionsTest - Тест код ответ 401 запущен
+5084 [main] DEBUG Lesson6.location.ListRegionsTest - Формируем мок GET /locations/v1/regions
+5092 [main] DEBUG Lesson6.location.ListRegionsTest - http клиент создан
+5100 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+5212 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+5217 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+5218 [main] INFO  L.location.LocationKeyNeighborsTest - Тест код ответ 200 запущен
+5221 [main] DEBUG L.location.LocationKeyNeighborsTest - Формируем мок GET /locations/v1/cities/neighbors/620
+5240 [main] DEBUG L.location.LocationKeyNeighborsTest - http-клиент создан
+5257 [main] INFO  L.location.LocationKeyNeighborsTest - Тест код ответ 401 запущен
+5257 [main] DEBUG L.location.LocationKeyNeighborsTest - Формируем мок GET /locations/v1/cities/neighbors/620
+5267 [main] DEBUG L.location.LocationKeyNeighborsTest - http клиент создан
+5275 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+5382 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+5387 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+5389 [main] INFO  L.location.LocationKeySearchTest - Тест код ответ 200 запущен
+5389 [main] DEBUG L.location.LocationKeySearchTest - Формируем мок GET /locations/v1/620
+5399 [main] DEBUG L.location.LocationKeySearchTest - http-клиент создан
+5410 [main] INFO  L.location.LocationKeySearchTest - Тест код ответ 401 запущен
+5411 [main] DEBUG L.location.LocationKeySearchTest - Формируем мок GET /locations/v1/620
+5422 [main] DEBUG L.location.LocationKeySearchTest - http клиент создан
+5431 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+5538 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+5543 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+5544 [main] INFO  L.location.TextSearchCityTest - Тест код ответ 200 запущен
+5544 [main] DEBUG L.location.TextSearchCityTest - Формируем мок GET /locations/v1/cities/search
+5561 [main] DEBUG L.location.TextSearchCityTest - http-клиент создан
+5573 [main] INFO  L.location.TextSearchCityTest - Тест код ответ 401 запущен
+5573 [main] DEBUG L.location.TextSearchCityTest - Формируем мок GET /locations/v1/cities/search
+5580 [main] DEBUG L.location.TextSearchCityTest - http клиент создан
+5588 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+5693 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+1033 [main] INFO  org.mortbay.log - Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+1039 [main] DEBUG org.mortbay.log - Container Server@1d2bd371 + org.mortbay.thread.QueuedThreadPool@64ba3208 as threadpool
+1048 [main] DEBUG org.mortbay.log - Container Server@1d2bd371 + DelayableSocketConnector@0.0.0.0:8080 as connector
+1066 [main] DEBUG org.mortbay.log - Container Server@1d2bd371 + org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} as handler
+1067 [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} + ServletHandler@55562aa9 as handler
+1078 [main] DEBUG org.mortbay.log - Container ServletHandler@55562aa9 + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661 as servlet
+1079 [main] DEBUG org.mortbay.log - Container ServletHandler@55562aa9 + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661,[/]) as servletMapping
+1087 [main] DEBUG org.mortbay.log - filterNameMap=null
+1087 [main] DEBUG org.mortbay.log - pathFilters=null
+1087 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1087 [main] DEBUG org.mortbay.log - servletPathMap={/=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661}
+1088 [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661}
+1090 [main] DEBUG org.mortbay.log - Container ServletHandler@55562aa9 - com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661 as servlet
+1090 [main] DEBUG org.mortbay.log - Container ServletHandler@55562aa9 - (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661,[/]) as servletMapping
+1090 [main] DEBUG org.mortbay.log - Container Server@1d2bd371 - org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} as handler
+1091 [main] DEBUG org.mortbay.log - Container Server@1d2bd371 + HandlerCollection@6955cb39 as handler
+1091 [main] DEBUG org.mortbay.log - Container ServletHandler@55562aa9 + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661 as servlet
+1091 [main] DEBUG org.mortbay.log - Container ServletHandler@55562aa9 + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-1805164661,[/]) as servletMapping
+1091 [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} + ServletHandler@55562aa9 as handler
+1091 [main] DEBUG org.mortbay.log - Container HandlerCollection@6955cb39 + org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} as handler
+1091 [main] DEBUG org.mortbay.log - Container HandlerCollection@6955cb39 + org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} as handler
+1092 [main] DEBUG org.mortbay.log - Container HandlerCollection@6955cb39 + org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} as handler
+1092 [main] DEBUG org.mortbay.log - Container HandlerCollection@6955cb39 + org.mortbay.jetty.servlet.Context@235a0c16{/,null} as handler
+1092 [main] DEBUG org.mortbay.log - Container org.mortbay.jetty.servlet.Context@235a0c16{/,null} + ServletHandler@2b5f4d54 as handler
+1096 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + org.mortbay.jetty.servlet.DefaultServlet-962287291 as servlet
+1096 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + (S=org.mortbay.jetty.servlet.DefaultServlet-962287291,[/__files/*]) as servletMapping
+1096 [main] DEBUG org.mortbay.log - filterNameMap=null
+1097 [main] DEBUG org.mortbay.log - pathFilters=null
+1097 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1097 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-962287291}
+1097 [main] DEBUG org.mortbay.log - servletNameMap={org.mortbay.jetty.servlet.DefaultServlet-962287291=org.mortbay.jetty.servlet.DefaultServlet-962287291}
+1097 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869 as servlet
+1097 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + (S=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869,[/]) as servletMapping
+1098 [main] DEBUG org.mortbay.log - filterNameMap=null
+1098 [main] DEBUG org.mortbay.log - pathFilters=null
+1098 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1098 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-962287291, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869}
+1098 [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869, org.mortbay.jetty.servlet.DefaultServlet-962287291=org.mortbay.jetty.servlet.DefaultServlet-962287291}
+1130 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930 as filter
+1134 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + (F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930,[/__files/*],[],2) as filterMapping
+1139 [main] DEBUG org.mortbay.log - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930}
+1140 [main] DEBUG org.mortbay.log - pathFilters=[(F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930,[/__files/*],[],2)]
+1140 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1140 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-962287291, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869}
+1140 [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869, org.mortbay.jetty.servlet.DefaultServlet-962287291=org.mortbay.jetty.servlet.DefaultServlet-962287291}
+1142 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-848097505 as filter
+1142 [main] DEBUG org.mortbay.log - Container ServletHandler@2b5f4d54 + (F=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-848097505,[/__files/*],[],15) as filterMapping
+1142 [main] DEBUG org.mortbay.log - filterNameMap={com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930, com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-848097505=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-848097505}
+1142 [main] DEBUG org.mortbay.log - pathFilters=[(F=com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter-749604930,[/__files/*],[],2), (F=com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter-848097505,[/__files/*],[],15)]
+1142 [main] DEBUG org.mortbay.log - servletFilterMap=null
+1143 [main] DEBUG org.mortbay.log - servletPathMap={/__files/*=org.mortbay.jetty.servlet.DefaultServlet-962287291, /=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869}
+1143 [main] DEBUG org.mortbay.log - servletNameMap={com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869=com.github.tomakehurst.wiremock.jetty6.Jetty6HandlerDispatchingServlet-828326869, org.mortbay.jetty.servlet.DefaultServlet-962287291=org.mortbay.jetty.servlet.DefaultServlet-962287291}
+1143 [main] DEBUG org.mortbay.log - Container HandlerCollection@6955cb39 + org.mortbay.jetty.servlet.Context@73173f63{/__admin,null} as handler
+1143 [main] DEBUG org.mortbay.log - Container HandlerCollection@6955cb39 + org.mortbay.jetty.servlet.Context@235a0c16{/,null} as handler
+1194 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+1219 [main] INFO  L.a.FifteenDaysOfWeatherAlarmsTest - Тест код ответ 401 запущен
+1219 [main] DEBUG L.a.FifteenDaysOfWeatherAlarmsTest - Формируем мок GET /alarms/v1/15day//290421
+2207 [main] DEBUG L.a.FifteenDaysOfWeatherAlarmsTest - http клиент создан
+2308 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+2448 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+2459 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+2461 [main] INFO  L.current.CurrentConditionsTest - Тест код ответ 200 запущен
+2463 [main] DEBUG L.current.CurrentConditionsTest - Формируем мок GET /currentconditions/v1/15
+2488 [main] DEBUG L.current.CurrentConditionsTest - http-клиент создан
+2538 [main] INFO  L.current.CurrentConditionsTest - Тест код ответ 401 запущен
+2538 [main] DEBUG L.current.CurrentConditionsTest - Формируем мок GET /currentconditions/v1/15
+2557 [main] DEBUG L.current.CurrentConditionsTest - http клиент создан
+2569 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+2681 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+2693 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+2696 [main] INFO  L.current.HistoricalSixHourTest - Тест код ответ 200 запущен
+2700 [main] DEBUG L.current.HistoricalSixHourTest - Формируем мок GET /currentconditions/v1/5/historical
+2739 [main] DEBUG L.current.HistoricalSixHourTest - http-клиент создан
+2774 [main] INFO  L.current.HistoricalSixHourTest - Тест код ответ 401 запущен
+2774 [main] DEBUG L.current.HistoricalSixHourTest - Формируем мок GET /currentconditions/v1/5/historical
+2791 [main] DEBUG L.current.HistoricalSixHourTest - http клиент создан
+2804 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+2915 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+2923 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+2925 [main] INFO  L.c.HistoricalTwentyFourHoursTest - Тест код ответ 200 запущен
+2925 [main] DEBUG L.c.HistoricalTwentyFourHoursTest - Формируем мок GET /currentconditions/v1/5/historical/24
+2941 [main] DEBUG L.c.HistoricalTwentyFourHoursTest - http-клиент создан
+2962 [main] INFO  L.c.HistoricalTwentyFourHoursTest - Тест код ответ 401 запущен
+2962 [main] DEBUG L.c.HistoricalTwentyFourHoursTest - Формируем мок GET /currentconditions/v1/5/historical/24
+2975 [main] DEBUG L.c.HistoricalTwentyFourHoursTest - http клиент создан
+2989 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+3104 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+3110 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+3112 [main] INFO  L.indices.FiveDaysForAGroupTest - Тест код ответ 200 запущен
+3118 [main] DEBUG L.indices.FiveDaysForAGroupTest - Формируем мок GET /indices/v1/daily/5day/52/groups/8
+3140 [main] DEBUG L.indices.FiveDaysForAGroupTest - http-клиент создан
+3156 [main] INFO  L.indices.FiveDaysForAGroupTest - Тест код ответ 401 запущен
+3157 [main] DEBUG L.indices.FiveDaysForAGroupTest - Формируем мок GET /indices/v1/daily/5day/52/groups/8
+3169 [main] DEBUG L.indices.FiveDaysForAGroupTest - http клиент создан
+3184 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+3291 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+3297 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+3299 [main] INFO  L.indices.FiveDaysForAllIndicesTest - Тест код ответ 200 запущен
+3299 [main] DEBUG L.indices.FiveDaysForAllIndicesTest - Формируем мок GET /indices/v1/daily/5day/52/groups/8
+3315 [main] DEBUG L.indices.FiveDaysForAllIndicesTest - http-клиент создан
+3329 [main] INFO  L.indices.FiveDaysForAllIndicesTest - Тест код ответ 401 запущен
+3329 [main] DEBUG L.indices.FiveDaysForAllIndicesTest - Формируем мок GET /indices/v1/daily/5day/52/groups/8
+3340 [main] DEBUG L.indices.FiveDaysForAllIndicesTest - http клиент создан
+3351 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+3462 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+3468 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+3469 [main] INFO  L.i.FiveDaysForSpecificIndexTest - Тест код ответ 200 запущен
+3470 [main] DEBUG L.i.FiveDaysForSpecificIndexTest - Формируем мок GET /indices/v1/daily/5day/52/8
+3482 [main] DEBUG L.i.FiveDaysForSpecificIndexTest - http-клиент создан
+3495 [main] INFO  L.i.FiveDaysForSpecificIndexTest - Тест код ответ 401 запущен
+3495 [main] DEBUG L.i.FiveDaysForSpecificIndexTest - Формируем мок GET /indices/v1/daily/5day/52/8
+3507 [main] DEBUG L.i.FiveDaysForSpecificIndexTest - http клиент создан
+3518 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+3633 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+3637 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+3639 [main] INFO  L.indices.ListDailyGroupIndicesTest - Тест код ответ 200 запущен
+3642 [main] DEBUG L.indices.ListDailyGroupIndicesTest - Формируем мок GET /indices/v1/daily
+3656 [main] DEBUG L.indices.ListDailyGroupIndicesTest - http-клиент создан
+3670 [main] INFO  L.indices.ListDailyGroupIndicesTest - Тест код ответ 401 запущен
+3670 [main] DEBUG L.indices.ListDailyGroupIndicesTest - Формируем мок GET /indices/v1/daily
+3681 [main] DEBUG L.indices.ListDailyGroupIndicesTest - http клиент создан
+3691 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+3805 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+3811 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+3813 [main] INFO  L.indices.ListDailyIndicesTest - Тест код ответ 200 запущен
+3813 [main] DEBUG L.indices.ListDailyIndicesTest - Формируем мок GET /indices/v1/daily
+3827 [main] DEBUG L.indices.ListDailyIndicesTest - http-клиент создан
+3840 [main] INFO  L.indices.ListDailyIndicesTest - Тест код ответ 401 запущен
+3840 [main] DEBUG L.indices.ListDailyIndicesTest - Формируем мок GET /indices/v1/daily
+3849 [main] DEBUG L.indices.ListDailyIndicesTest - http клиент создан
+3860 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+3976 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+3981 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+3982 [main] INFO  L.indices.ListInASpecificGroupTest - Тест код ответ 200 запущен
+3983 [main] DEBUG L.indices.ListInASpecificGroupTest - Формируем мок GET /indices/v1/daily/groups/8
+3998 [main] DEBUG L.indices.ListInASpecificGroupTest - http-клиент создан
+4012 [main] INFO  L.indices.ListInASpecificGroupTest - Тест код ответ 401 запущен
+4012 [main] DEBUG L.indices.ListInASpecificGroupTest - Формируем мок GET /indices/v1/daily/groups/8
+4023 [main] DEBUG L.indices.ListInASpecificGroupTest - http клиент создан
+4034 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+4147 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+4152 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+4153 [main] INFO  L.i.OneDayValuesAllIndicesTest - Тест код ответ 200 запущен
+4155 [main] DEBUG L.i.OneDayValuesAllIndicesTest - Формируем мок GET /indices/v1/daily/1day/5
+4169 [main] DEBUG L.i.OneDayValuesAllIndicesTest - http-клиент создан
+4183 [main] INFO  L.i.OneDayValuesAllIndicesTest - Тест код ответ 401 запущен
+4183 [main] DEBUG L.i.OneDayValuesAllIndicesTest - Формируем мок GET /indices/v1/daily/1day/5
+4193 [main] DEBUG L.i.OneDayValuesAllIndicesTest - http клиент создан
+4202 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+4319 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+4324 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+4325 [main] INFO  L.indices.OneDayValuesGroupTest - Тест код ответ 200 запущен
+4325 [main] DEBUG L.indices.OneDayValuesGroupTest - Формируем мок GET /indices/v1/daily/1day/5/groups/8
+4339 [main] DEBUG L.indices.OneDayValuesGroupTest - http-клиент создан
+4358 [main] INFO  L.indices.OneDayValuesGroupTest - Тест код ответ 401 запущен
+4358 [main] DEBUG L.indices.OneDayValuesGroupTest - Формируем мок GET /indices/v1/daily/1day/5/groups/8
+4365 [main] DEBUG L.indices.OneDayValuesGroupTest - http клиент создан
+4372 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+4476 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+4480 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+4481 [main] INFO  L.i.OneDayValuesSpecificIndexTest - Тест код ответ 200 запущен
+4482 [main] DEBUG L.i.OneDayValuesSpecificIndexTest - Формируем мок GET /indices/v1/daily/1day/5/8
+4493 [main] DEBUG L.i.OneDayValuesSpecificIndexTest - http-клиент создан
+4504 [main] INFO  L.i.OneDayValuesSpecificIndexTest - Тест код ответ 401 запущен
+4505 [main] DEBUG L.i.OneDayValuesSpecificIndexTest - Формируем мок GET /indices/v1/daily/1day/5/8
+4514 [main] DEBUG L.i.OneDayValuesSpecificIndexTest - http клиент создан
+4523 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+4630 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+4634 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+4636 [main] INFO  L.location.AutoCompleteSearchTest - Тест код ответ 200 запущен
+4638 [main] DEBUG L.location.AutoCompleteSearchTest - Формируем мок GET /locations/v1/cities/autocomplete
+4651 [main] DEBUG L.location.AutoCompleteSearchTest - http-клиент создан
+4664 [main] INFO  L.location.AutoCompleteSearchTest - Тест код ответ 401 запущен
+4665 [main] DEBUG L.location.AutoCompleteSearchTest - Формируем мок GET /locations/v1/cities/autocomplete
+4673 [main] DEBUG L.location.AutoCompleteSearchTest - http клиент создан
+4680 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+4785 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+4790 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+4791 [main] INFO  Lesson6.location.ListAdminAreaTest - Тест код ответ 200 запущен
+4794 [main] DEBUG Lesson6.location.ListAdminAreaTest - Формируем мок GET /locations/v1/adminareas/MEA
+4806 [main] DEBUG Lesson6.location.ListAdminAreaTest - http-клиент создан
+4816 [main] INFO  Lesson6.location.ListAdminAreaTest - Тест код ответ 401 запущен
+4816 [main] DEBUG Lesson6.location.ListAdminAreaTest - Формируем мок GET /locations/v1/adminareas/MEA
+4825 [main] DEBUG Lesson6.location.ListAdminAreaTest - http клиент создан
+4832 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+4944 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+4949 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+4951 [main] INFO  Lesson6.location.ListCountryTest - Тест код ответ 200 запущен
+4952 [main] DEBUG Lesson6.location.ListCountryTest - Формируем мок GET /locations/v1/countries/ARC
+4962 [main] DEBUG Lesson6.location.ListCountryTest - http-клиент создан
+4974 [main] INFO  Lesson6.location.ListCountryTest - Тест код ответ 401 запущен
+4974 [main] DEBUG Lesson6.location.ListCountryTest - Формируем мок GET /locations/v1/countries/ARC
+4981 [main] DEBUG Lesson6.location.ListCountryTest - http клиент создан
+4989 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+5098 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+5102 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+5103 [main] INFO  Lesson6.location.ListRegionsTest - Тест код ответ 200 запущен
+5104 [main] DEBUG Lesson6.location.ListRegionsTest - Формируем мок GET /locations/v1/regions
+5115 [main] DEBUG Lesson6.location.ListRegionsTest - http-клиент создан
+5124 [main] INFO  Lesson6.location.ListRegionsTest - Тест код ответ 401 запущен
+5124 [main] DEBUG Lesson6.location.ListRegionsTest - Формируем мок GET /locations/v1/regions
+5131 [main] DEBUG Lesson6.location.ListRegionsTest - http клиент создан
+5139 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+5254 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+5259 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+5260 [main] INFO  L.location.LocationKeyNeighborsTest - Тест код ответ 200 запущен
+5262 [main] DEBUG L.location.LocationKeyNeighborsTest - Формируем мок GET /locations/v1/cities/neighbors/620
+5282 [main] DEBUG L.location.LocationKeyNeighborsTest - http-клиент создан
+5305 [main] INFO  L.location.LocationKeyNeighborsTest - Тест код ответ 401 запущен
+5306 [main] DEBUG L.location.LocationKeyNeighborsTest - Формируем мок GET /locations/v1/cities/neighbors/620
+5313 [main] DEBUG L.location.LocationKeyNeighborsTest - http клиент создан
+5320 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+5424 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+5428 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+5430 [main] INFO  L.location.LocationKeySearchTest - Тест код ответ 200 запущен
+5430 [main] DEBUG L.location.LocationKeySearchTest - Формируем мок GET /locations/v1/620
+5441 [main] DEBUG L.location.LocationKeySearchTest - http-клиент создан
+5456 [main] INFO  L.location.LocationKeySearchTest - Тест код ответ 401 запущен
+5456 [main] DEBUG L.location.LocationKeySearchTest - Формируем мок GET /locations/v1/620
+5462 [main] DEBUG L.location.LocationKeySearchTest - http клиент создан
+5470 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+5578 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer
+5582 [main] INFO  Lesson6.AbstractTest - Start WireMockServer on port 8080
+5583 [main] INFO  L.location.TextSearchCityTest - Тест код ответ 200 запущен
+5584 [main] DEBUG L.location.TextSearchCityTest - Формируем мок GET /locations/v1/cities/search
+5600 [main] DEBUG L.location.TextSearchCityTest - http-клиент создан
+5616 [main] INFO  L.location.TextSearchCityTest - Тест код ответ 401 запущен
+5616 [main] DEBUG L.location.TextSearchCityTest - Формируем мок GET /locations/v1/cities/search
+5629 [main] DEBUG L.location.TextSearchCityTest - http клиент создан
+5638 [main] DEBUG Lesson6.AbstractTest - convertResponseToString method call
+5748 [main] INFO  Lesson6.AbstractTest - Stop WireMockServer

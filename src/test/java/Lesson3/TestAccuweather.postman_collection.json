@@ -1,0 +1,263 @@
+{
+	"info": {
+		"_postman_id": "5b362d4d-97dd-4341-9e80-09b3aa992e96",
+		"name": "TestAccuweather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33932389"
+	},
+	"item": [
+		{
+			"name": "Get Location",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 1000ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+							"});\r",
+							"pm.test(\"Count object = \" + pm.response.json().length, function () {\r",
+							"    pm.expect(pm.response.json().length).to.equal(10);\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.json()[0].Key).to.eql(\"293686\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.json()[0].LocalizedName).to.eql(\"Krasnodar\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.json()[0].Country.ID).to.eql(\"RU\");\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.json()[0].Country.LocalizedName).to.eql(\"Russia\");\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/locations/v1/cities/autocomplete?q=Krasnodar",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"locations",
+						"v1",
+						"cities",
+						"autocomplete"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Krasnodar"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetWeatherTenDay",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 401\", function () {\r",
+							"    pm.response.to.have.status(401);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 1000ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecasts/v1/daily/10day/293686",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecasts",
+						"v1",
+						"daily",
+						"10day",
+						"293686"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetWeatherFiftenDay",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 401\", function () {\r",
+							"    pm.response.to.have.status(401);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 1000ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecasts/v1/daily/15day/293686",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecasts",
+						"v1",
+						"daily",
+						"15day",
+						"293686"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetWeatherOneDay",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 1000ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
+							"});\r",
+							"pm.test(\"Count object = \" + pm.response.json().length, function () {\r",
+							"    pm.expect(pm.response.json().DailyForecasts.length).to.equal(1);\r",
+							"});\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.json().Headline.Category).to.eql(\"heat\");\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/forecasts/v1/daily/1day/293686",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"forecasts",
+						"v1",
+						"daily",
+						"1day",
+						"293686"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "Bdu3dPSSJGVabUmtfKNVcszofw5363Gm",
+				"type": "string"
+			},
+			{
+				"key": "in",
+				"value": "query",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "apikey",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api-key-my",
+			"value": "c3wjaZaYDivuTXRAJkDGMkYr1KPWToEg",
+			"type": "string"
+		},
+		{
+			"key": "baseUrl",
+			"value": "http://dataservice.accuweather.com",
+			"type": "string"
+		}
+	]
+}
